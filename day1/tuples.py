@@ -20,12 +20,12 @@
 # print("Tuple after changing second element:", tuple_list)
 
 
-fruits = ("apple", "banana", "cherry")
+# fruits = ("apple", "banana", "cherry")
 
-# (green, yellow, red) = fruits
+# # (green, yellow, red) = fruits
 
-# print(green)
-# print(yellow)
-# print(red)
+# # print(green)
+# # print(yellow)
+# # print(red)
 
-fruits.count("apple")  # Count occurrences of "apple"
+# fruits.count("apple")  # Count occurrences of "apple"
