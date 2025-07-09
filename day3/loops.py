@@ -49,3 +49,20 @@
 #     table = f"{num} x {i} = {num * i}"
 #     print(table)
 
+# num = int(input("Enter a number: "))
+# i = 1
+# while i <= 10:
+#     table = f"{num} x {i} = {num * i}"
+#     print(table)
+#     i += 1
+
+
+# num = int(input("Enter a number: "))
+
+# for i in range(2,num):
+#     if(num % i ==0):
+#         print(f"{num} is not a prime number")
+#         break
+# else:
+#     print(f"{num} is a prime number")
+
