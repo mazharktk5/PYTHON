@@ -12,3 +12,13 @@
 #     print(f"Hello {list[i]}")
 #     i += 1
 
+# for i in range(5):
+#     print(i)
+
+# for i in range(5, 10):
+#     print(i)
+
+# for i in range(0,100,5):
+#     print(i)
+
+
