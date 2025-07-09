@@ -21,7 +21,9 @@
 
 list = ["mazhar", "ali", "khan"]
 
-if("mazhar" in list):
-    print("mazhar is in the list")
+name = input("Enter your name: ")
+
+if(name in list):
+    print(f"{name} in the list")
 else:
-    print("mazhar is not in the list")
+    print(f"{name} is not in the list")
