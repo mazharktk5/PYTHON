@@ -22,3 +22,25 @@
 #     print(i)
 
 
+# name = "mazhar"
+
+# for i in name:
+#     print(i)
+
+# else:
+#     print("Loop completed successfully")
+
+# for i in range(20):
+#     if i == 10:
+#         print("Loop is breaking")
+#         break
+#     print(i)
+
+
+for i in range(20):
+    if i == 10:
+
+        print("Loop is breaking")
+        continue
+    print(i)
+
