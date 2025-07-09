@@ -66,11 +66,22 @@
 # else:
 #     print(f"{num} is a prime number")
 
+# num = int(input("Enter a number: "))
+# i = 1
+# sum = 0
+# while i <= num:
+#     if num % i == 0:
+#         sum += i
+#     i += 1
+# print(f"Sum of divisors of {num} is {sum}")
+
 num = int(input("Enter a number: "))
-i = 1
-sum = 0
-while i <= num:
-    if num % i == 0:
-        sum += i
-    i += 1
-print(f"Sum of divisors of {num} is {sum}")
+product = 1
+
+for i in range(1,num + 1):
+     product *= i
+     print(product)
+print(f"Factorial of {num} is {product}")
+
+   
+
