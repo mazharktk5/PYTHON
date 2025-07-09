@@ -1,6 +1,11 @@
-age = int(input("Enter your age"))
+# 
 
-if (age >= 18):
-    print("you are an adult")
+p1 = "buy now"
+p2 = "click this"
+
+comment = input("Enter your comment: ")
+
+if (p1 in comment) or (p2 in comment):
+    print("You are a spammer!")
 else:
-    print("you are a minor")
+    print("Thank you for your comment!")
