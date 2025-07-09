@@ -37,10 +37,15 @@
 #     print(i)
 
 
-for i in range(20):
-    if i == 10:
+# for i in range(20):
+#     if i == 10:
 
-        print("Loop is breaking")
-        continue
-    print(i)
+#         print("Loop is breaking")
+#         continue
+#     print(i)
+
+# num = int(input("Enter a number: "))
+# for i in range(1,11):
+#     table = f"{num} x {i} = {num * i}"
+#     print(table)
 
