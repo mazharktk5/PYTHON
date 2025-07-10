@@ -15,13 +15,28 @@
 
 # Greeting("Mazhar")
 
-def factorial(n):
-    if(n==1 or n == 0):
-        return 1
+# def factorial(n):
+#     if(n==1 or n == 0):
+#         return 1
     
-    return n* factorial(n-1)
+#     return n* factorial(n-1)
 
     
 
-Factorial = factorial(4)
-print(Factorial)
+# Factorial = factorial(4)
+# print(Factorial)
+
+
+
+# def greatest(a,b,c):
+#     if(a>b and a>c):
+#         return a
+#     elif(b>a and b > c):
+#         return b
+#     else:
+#         return c
+
+# print(greatest(3,9,6))
+
+def c_to_f(c):
+    
