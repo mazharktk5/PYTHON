@@ -75,6 +75,8 @@
 #     i += 1
 # print(f"Sum of divisors of {num} is {sum}")
 
+
+
 # num = int(input("Enter a number: "))
 # product = 1
 
@@ -82,6 +84,8 @@
 #      product *= i
 #      print(product)
 # print(f"Factorial of {num} is {product}")
+
+
 
 # num = int(input("Enter a number: "))
 # for i in range(1, num + 1):
