@@ -43,14 +43,15 @@ class Train:
         self.name = name
         self.speed = speed
         self.year = year
-        def displayInfo(self):
+    def displayInfo(self):
             print(f"Name: {self.name}")
             print(f"Speed: {self.speed} km/h")
             print(f"Year: {self.year}")
-            displayInfo(self)
+            
             print("Train info displayed")
 
-displayInfo(self)
+t = Train("mazhar" ,2000, 2005)
+t.displayInfo()  # Output: Name: Mazhar Train info displayed
 
         
         
