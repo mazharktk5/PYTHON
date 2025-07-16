@@ -34,7 +34,7 @@ class Programer:
 p1 = Programer("Mazhar",20,230004)
 print(p1.name,p1.age,p1.salary)
 p2 = Programer("ALi" , 23  ,23400)
-print(p2.name,p2.age,p2.salary)  # Output: Mazhar 20
+print(p2.name,p2.age,p2.salary)  
 
         
         
